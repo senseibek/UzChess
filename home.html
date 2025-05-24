@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | UzChess</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <div class="sidebar" id="sidebar">
+        <div class="logo">
+            <a href="home.html"><span class="icon"><i class="fa-solid fa-dice"></i></span>
+                <span class="label" style="text-align: start;">UzChess </span></a>
+        </div>
+
+        <ul class="menu">
+            <a href="courses.html">
+                <li class="menu-item active">
+                    <span class="icon"><i class="fa-solid fa-book"></i></span>
+                    <span class="label">Courses</span>
+                </li>
+            </a>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-medal"></i></span>
+                <span class="label">Grandmasters</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-newspaper"></i></span>
+                <span class="label">News</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-book"></i></span>
+                <span class="label">Books</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-file"></i></span>
+                <span class="label">Afisha</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><span class="charm--swords"></span></span>
+                <span class="label">Tournaments</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-box"></i></span>
+                <span class="label">Modules</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-book-open"></i></span>
+                <span class="label">Lessons</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-file-circle-question"></i></span>
+                <span class="label">Quiz</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-stream"></i></span>
+                <span class="label">Live Streams</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-puzzle-piece"></i></span>
+                <span class="label">Puzzles</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-user-group"></i></span>
+                <span class="label">Teachers</span>
+            </li>
+            <li class="menu-item">
+                <span class="icon"><i class="fa-solid fa-bell"></i></span>
+                <span class="label">Notifications</span>
+            </li>
+        </ul>
+    </div>
+    
+            <button class="toggleBtn" id="toggleBtn" aria-label="Toggle Icon"><i id="toggleIcon" class="fa-solid fa-arrow-left"></i>
+</button>
+
+
+
+<div class="line"></div>
+            
+
+    <div class="main">
+        <h4>Bosh Sahifa</h4> <br>
+        <p>Home Page</p>
+    </div>
+
+
+    <div class="header">
+        <div class="dropdown-wrapper">
+            <button class="dropdown-btn" id="themeBtn"><i class="fa-solid fa-sun"></i></button>
+            <ul class="dropdown-menu" id="themeMenu">
+                <li class="dropdown-item" data-theme="light">Light</li>
+                <li class="dropdown-item" data-theme="dark">Dark</li>
+            </ul>
+        </div>
+
+        <div class="dropdown-wrapper">
+            <button class="dropdown-btn" id="profileBtn"><i class="fa-solid fa-circle-user"></i></button>
+            <ul class="dropdown-menu" id="profileMenu">
+                <li class="dropdown-item" id="profileLink"><i class="fa-solid fa-user"></i> Profil</li>
+                <li class="dropdown-item" id="logoutBtn"><i class="fa-solid fa-right-to-bracket"></i> Chiqish</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="toast" class="toast hidden">Muvaffaqiyatli! <br> <span style="font-size: 16px;">UzChess platformasiga xush
+            kelibsiz!</span></div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/toast.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/sidebar.js"></script>
+</body>
+
+</html>

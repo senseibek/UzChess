@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    background-color: #969aa2;
+}
+
+.tables {
+    margin-top: 100px;
+}
+
+table {
+    width: 100%;
+}
+
+table tr th,td {
+    font-size: 15px;
+    text-align: start;
+    padding: 6px 30px;
+}
+
+table tr th {
+    color: gray;
+    font-size: 14px;
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+}
+
+.inbox {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.eye,
+.edit {
+    background-color: rgb(11, 11, 31);
+    color: white;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+}
