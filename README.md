@@ -1,2 +1,2 @@
 # UzChess
-uzchess test
+UzChess siteini conspet varianti
