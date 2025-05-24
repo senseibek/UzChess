@@ -6,8 +6,6 @@ toggleBtn.addEventListener('click', () => {
 });
 
 
-
-// Ikonani o'zgartirish uchun minimal kod
 document.addEventListener('DOMContentLoaded', () => {
   const btn  = document.getElementById('toggleBtn');
   const icon = document.getElementById('toggleIcon');
